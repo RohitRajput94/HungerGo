@@ -31,7 +31,7 @@ export default function Footer() {
       <div className="col-6 col-md-2 mb-3">
         <h5>LEARN MORE </h5>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="/" className="nav-link p-0 ">Search Food</a></li>
+          <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-muted">Search Food</a></li>
           <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-muted">Privacy</a></li>
           <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-muted">Security</a></li>
           <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-muted">Terms</a></li>

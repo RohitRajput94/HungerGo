@@ -16,6 +16,7 @@ app.use((req,res, next) => {
 app.use(express.json()); // \\from createuserfile and using there router\\ require for executions when we are using expressjs as a json format
 app.use("/api", require("./Routes/CreateUser")); // api request for the directory to create a user details here using routes
 app.use("/api", require("./Routes/DisplayData")); // api for display data from backend 
+app.use("/api", require("./Routes/OrderData"));
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });

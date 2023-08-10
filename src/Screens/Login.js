@@ -32,6 +32,7 @@ export default function Login() {
     }
     
     if (json.success) {
+      localStorage.setItem("userEmail", credentials.email);
       localStorage.setItem("authToken", json.authToken); //taking authtoken and converting it in json format using setitem
       console.log(localStorage.getItem("authToken"))  // printing it and saving it in localstorage or in a  cache memory before we navigate to homepage
       navigate("/"); // navigate to home page here using navigation hook in router 
